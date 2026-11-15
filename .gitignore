@@ -21,4 +21,3 @@ apps/weather/migrations/*
 
 # Environment / secrets
 .env
-.env.*
