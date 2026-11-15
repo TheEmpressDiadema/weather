@@ -13,6 +13,6 @@ class Location(models.Model):
         constraints = [
             models.UniqueConstraint(
                 fields=['user_id', 'name', 'latitude', 'longtitude'],
-                name='unique_record'
+                name='unique_constraint'
             )
         ]
