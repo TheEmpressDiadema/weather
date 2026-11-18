@@ -5,5 +5,5 @@ from apps.weather import views
 app_name = 'weather'
 
 urlpatterns = [
-    path('', views.index, name='index')
+    path('', views.index, name='home')
 ]
