@@ -16,8 +16,8 @@ wheels/
 db.sqlite3
 *.log
 local_settings.py
-apps/weather/migrations/*
-!apps/weather/migrations/__init__.py
+apps/*/migrations/*
+!apps/*/migrations/__init__.py
 
 # Environment / secrets
 .env
